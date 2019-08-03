@@ -3,6 +3,7 @@ package com.algothon.productfolio;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
@@ -16,5 +17,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void SayHello(View view) {
         Toast.makeText(this, "Welcome to Product Folio", Toast.LENGTH_SHORT).show();
+        Log.d(MainActivity.class.getSimpleName(), "First edit by tayyba");
     }
 }
